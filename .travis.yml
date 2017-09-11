@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Y+/3v1WyZhu9zua2u+PCmA7mPtLGYw181LGkDwntLP4LT7edfllQmAngnBtXwx/oJyrztx94YqDN+WGtj/LsGHbkgzpRbfxcFCDqtJXmu55hz6MALc3H2xqS+DI5n9p7yy/9x484oEPgoTgU+lY46DBMvmhnqk2gkUdaEu661J9NHP8zBbvuPXi3GR2ZQKUuYlq5wxyCQ4MS6X0LrSemknz5+jdVYxYa5l6LhpUi6TxqxE7zvuU0xCddP4ktNZP2E2yRhPI41JKjGGa7oJeXNUuC6nep74mcjwgqP1x/645cIsPjmwHGOasjLjg7IpxQFQrghOcjMpukxFd/9nnOnfLwnIlE/ADWQXlrrgrSGSsQViia/Ya8FEkiWefRnhl6v0JVy3uMxyCo5ZRgZH1FACYjoSyO1T9Icb+SxVqYgPHGf1vIEsOPdt8YupnS1l7/CTS6Whlp/uUJwuf8UHRhp45IqTKTEqo7OtNEo/oBCmvQWYr6tBSq+jQ6BmUtQHT592rikXmieTpeE6bEAI4ByVqpdJbfA0nXjiBS9yIkdQ9JoldgdgVxuev4ETnLH91SRakAC44dbbKFp3TjXURbsOIWNkhvWPhBMX5/SM7n066SH18XugR0gehOvapw0i/7sllKc1jbc7vfvYNyzWxA1tuKQ2u48H9mN+wA9lfPM1I=
+  app: blogpost_gb
+  on:
+    repo: giri68/blogpost_gb
